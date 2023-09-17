@@ -1,0 +1,28 @@
+# Python related
+*.pyc
+*.pyo
+*.egg-info
+src/__pycache__/
+src/*/__pycache__/
+
+# Virtual Environment
+bank_api_env/
+
+# SQLite Database
+database/data.db
+
+# IDE specific (assuming you might be using PyCharm or VS Code)
+.idea/
+*.code-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Others
+*.env  # if you have environment variables stored
