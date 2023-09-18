@@ -82,6 +82,13 @@ banking-api
    ```
    uvicorn src.main:app --reload
    ```
+   This will run the app on http://127.0.0.1:8000/ , send a GET request to http://127.0.0.1:8000/transactions/ .
+
+If you want to start it on port 5000, then use this:
+
+```
+uvicorn src.main:app --host 0.0.0.0 --port 5000 --reload
+```
 
 ## Notes
 
